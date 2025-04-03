@@ -1,4 +1,7 @@
+import { useTheme } from "../contexts/ThemeToggle"
+
 export default function VideoElement() {
+  const theme = useTheme();
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       {/* Hero Container */}
@@ -23,7 +26,7 @@ export default function VideoElement() {
               muted
               loop
               playsInline
-              src="https://code.visualstudio.com/assets/home/hero-dark-lg.webm"
+              src={theme.theme === "light" ? "https://code.visualstudio.com/assets/home/hero-light-lg.webm" : "https://code.visualstudio.com/assets/home/hero-dark-lg.webm"}
             />
           </div>
         </div>

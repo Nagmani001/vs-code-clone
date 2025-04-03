@@ -11,7 +11,8 @@ export default {
         'custom-blue': "#0078d4",
         'secondary-background': '#eaeaea',
         'card-background': '#00000003',
-        'card-border': '#0000001A'
+        'card-border': '#0000001A',
+        'heading-dark': '#c3d0e5'
       },
       transitionProperty: {
         'width': 'width',
