@@ -7,7 +7,7 @@ import VideoElement from "../components/Video";
 
 export default function Landing() {
   return <div className="min-h-screen bg-white dark:bg-gray-900  ">
-    <div className="fixed top-0 left-0 w-full bg-white shadow z-50">
+    <div className="fixed top-0 left-0 w-full bg-white shadow z-50 dark:bg-gray-900  ">
       <NavBar />
     </div>
     <Hero />
