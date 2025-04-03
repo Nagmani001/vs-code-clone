@@ -10,6 +10,7 @@ export default function Landing() {
     <div className="fixed top-0 left-0 w-full bg-white shadow z-50 dark:bg-gray-900  ">
       <NavBar />
     </div>
+    <div>adf</div>
     <Hero />
     <VideoElement />
     <div className="flex justify-center mt-20  ">

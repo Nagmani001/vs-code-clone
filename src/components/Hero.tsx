@@ -11,6 +11,19 @@ export default function Hero() {
         in VS Code!
       </div>
 
+
+    </div>
+
+    <div className="flex  justify-center my-5 gap-1 text-sm font-extralight pt-6">
+      <div>
+        🚀 Get
+      </div>
+      <a className="text-custom-blue" href="/">Github Copilot Free</a>
+      <div>
+        in VS Code!
+      </div>
+
+
     </div>
     <div className=" flex justify-center">
       <div className="font-bold text-6xl flex flex-col justify-center gap-3 mt-5 dark:text-white">
